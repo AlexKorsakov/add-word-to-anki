@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Add words to Anki",
+  "version": "0.1",
+  "description": "Extension for adding new words quickly to Anki with learning languages purposes",
+  "permissions": [
+    "contextMenus",
+    "activeTab",
+    "storage"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon128.png"
+  },
+  "icons": {
+    "128": "icon128.png"
+  }
+}
