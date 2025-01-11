@@ -1,5 +1,24 @@
+<!DOCTYPE html>
 <html>
-  <body>
-    <h1>Add words to Anki</h1>
-  </body>
+<head>
+    <title>Anki Deck Selector</title>
+    <style>
+        body { min-width: 300px; font-family: Arial, sans-serif; padding: 10px; }
+        select { width: 100%; padding: 5px; margin-bottom: 10px; }
+    </style>
+</head>
+<body>
+    <button id="refreshButton">Refresh Decks/Models</button>
+
+    <h3>Select Deck:</h3>
+    <select id="deckSelect"></select>
+
+    <h3>Select Model:</h3>
+    <select id="modelSelect"></select>
+
+    <button id="saveSettingsButton">Save Settings</button>
+    <button id="addWordButton">Add Word</button>
+
+    <script src="popup.js"></script>
+</body>
 </html>
