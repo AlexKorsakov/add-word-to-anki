@@ -1,5 +1,5 @@
 # add-word-to-anki
-##Overview
+## Overview
 Chrome extension allows users to easily add selected English words with their translations to their Anki decks. The extension integrates with AnkiConnect, a plugin for Anki, to automate the process of adding new flashcards.
 
 ### Features
